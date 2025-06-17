@@ -1,0 +1,139 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Microsoft",
+      "founded": 1975,
+      "country": "USA",
+      "keyProducts": ["Windows", "Office", "Azure"],
+      "category": "Operating Systems, Productivity, Cloud",
+      "website": "https://www.microsoft.com"
+    },
+    {
+      "id": 2,
+      "name": "Apple",
+      "founded": 1976,
+      "country": "USA",
+      "keyProducts": ["macOS", "iOS", "iCloud"],
+      "category": "Operating Systems, Devices, Cloud",
+      "website": "https://www.apple.com"
+    },
+    {
+      "id": 3,
+      "name": "Google",
+      "founded": 1998,
+      "country": "USA",
+      "keyProducts": ["Chrome", "Android", "Google Workspace"],
+      "category": "Web, Mobile OS, Productivity",
+      "website": "https://www.google.com"
+    },
+    {
+      "id": 4,
+      "name": "Adobe",
+      "founded": 1982,
+      "country": "USA",
+      "keyProducts": ["Photoshop", "Illustrator", "Adobe Acrobat"],
+      "category": "Creative Software",
+      "website": "https://www.adobe.com"
+    },
+    {
+      "id": 5,
+      "name": "Oracle",
+      "founded": 1977,
+      "country": "USA",
+      "keyProducts": ["Oracle DB", "Java", "Fusion Middleware"],
+      "category": "Databases, Enterprise Software",
+      "website": "https://www.oracle.com"
+    },
+    {
+      "id": 6,
+      "name": "IBM",
+      "founded": 1911,
+      "country": "USA",
+      "keyProducts": ["Watson", "Db2", "IBM Cloud"],
+      "category": "AI, Cloud, Enterprise",
+      "website": "https://www.ibm.com"
+    },
+    {
+      "id": 7,
+      "name": "Salesforce",
+      "founded": 1999,
+      "country": "USA",
+      "keyProducts": ["Sales Cloud", "Service Cloud", "Marketing Cloud"],
+      "category": "CRM, Cloud",
+      "website": "https://www.salesforce.com"
+    },
+    {
+      "id": 8,
+      "name": "SAP",
+      "founded": 1972,
+      "country": "Germany",
+      "keyProducts": ["SAP ERP", "SAP S/4HANA"],
+      "category": "Enterprise Resource Planning",
+      "website": "https://www.sap.com"
+    },
+    {
+      "id": 9,
+      "name": "Mozilla",
+      "founded": 1998,
+      "country": "USA",
+      "keyProducts": ["Firefox", "Thunderbird"],
+      "category": "Web Browsers",
+      "website": "https://www.mozilla.org"
+    },
+    {
+      "id": 10,
+      "name": "Slack Technologies",
+      "founded": 2009,
+      "country": "USA",
+      "keyProducts": ["Slack"],
+      "category": "Communication",
+      "website": "https://slack.com"
+    },
+    {
+      "id": 11,
+      "name": "Zoom Video Communications",
+      "founded": 2011,
+      "country": "USA",
+      "keyProducts": ["Zoom Meetings", "Zoom Phone"],
+      "category": "Video Conferencing",
+      "website": "https://zoom.us"
+    },
+    {
+      "id": 12,
+      "name": "Spotify",
+      "founded": 2006,
+      "country": "Sweden",
+      "keyProducts": ["Spotify App"],
+      "category": "Music Streaming",
+      "website": "https://www.spotify.com"
+    },
+    {
+      "id": 13,
+      "name": "Dropbox",
+      "founded": 2007,
+      "country": "USA",
+      "keyProducts": ["Dropbox Cloud Storage"],
+      "category": "Cloud Storage",
+      "website": "https://www.dropbox.com"
+    },
+    {
+      "id": 14,
+      "name": "Atlassian",
+      "founded": 2002,
+      "country": "Australia",
+      "keyProducts": ["Jira", "Confluence", "Bitbucket"],
+      "category": "Project Management, DevOps",
+      "website": "https://www.atlassian.com"
+    },
+    {
+      "id": 15,
+      "name": "Canonical",
+      "founded": 2004,
+      "country": "UK",
+      "keyProducts": ["Ubuntu"],
+      "category": "Operating Systems, Open Source",
+      "website": "https://canonical.com"
+    }
+  ]
+}

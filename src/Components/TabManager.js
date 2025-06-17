@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import './TabManager.css';
 import SideBar from './SideBar';
+import Breadcrumb from './Breadcrumb';
 
 function TabManager({ children }) {
   const [tabs, setTabs] = useState([]);
@@ -97,13 +98,14 @@ function TabManager({ children }) {
                     className='tab-close'
                     onClick={(e) => closeTab(tab.id, e)}
                   >
-                    ×
+                    x
                   </span>
                 )}
               </div>
             ))}
           </div>
         </div>
+        <Breadcrumb currentPath={location.pathname}/>
         <div className='content-container'>
           {children}
         </div>

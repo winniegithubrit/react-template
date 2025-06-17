@@ -27,6 +27,7 @@ export const ThemeProvider = ({ children }) => {
     { name: 'Yellow', class: 'bg-warning', color: '#ffc107' },
     { name: 'Light Blue', class: 'bg-info', color: '#0dcaf0' },
     { name: 'Purple', class: '', color: '#6f42c1' },
+    {name:   'Orange', class: '', color: '#FFA500'},
   ];
 
   const handleThemeChange = (theme) => {

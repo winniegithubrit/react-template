@@ -1,0 +1,70 @@
+.breadcrumb-container {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e9ecef;
+  padding: 12px 20px;
+  margin: 0;
+  position: relative;
+  z-index: 1;
+}
+/* This prevents automatic slash separators from appearing */
+.custom-breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+.breadcrumb-item-custom {
+  display: inline-flex;
+  align-items: center;
+  color: #000000;
+  font-weight: 400;
+}
+.breadcrumb-item-custom.active {
+  color: #000000;
+  font-weight: 500;
+}
+.breadcrumb-link {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
+}
+.breadcrumb-separator {
+  margin: 0 8px;
+  color: #000000;
+  font-size: 12px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .breadcrumb-container {
+    padding: 8px 15px;
+  }
+  
+  .custom-breadcrumb {
+    font-size: 13px;
+  }
+  
+  .breadcrumb-separator {
+    margin: 0 6px;
+  }
+}
+@media (prefers-color-scheme: dark) {
+  .breadcrumb-container {
+    background-color: #ffffff;
+    border-bottom-color: #e9ecef;
+  }
+  .breadcrumb-item-custom {
+    color: #000000;
+  }
+  
+  .breadcrumb-item-custom.active {
+    color: #000000;
+  }
+}
