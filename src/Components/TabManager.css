@@ -1,7 +1,34 @@
+* {
+  font-size: 16px;
+  font-family: 'Inter', 'Roboto', sans-serif;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+h1 {
+  font-size: 32px;
+  font-family: 'Lato', 'Inter', 'Roboto', sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+h2 {
+  font-size: 22px;
+  font-family: 'Lato', 'Inter', 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Lato', 'Inter', 'Roboto', sans-serif;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
 .admin-container {
   display: flex;
   height: 100vh;
   overflow: hidden;
+  font-family: sans-serif, Roboto, Inter;
 }
 
 .main-content {
@@ -9,6 +36,7 @@
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  font-family: sans-serif, Roboto, Inter;
 }
 
 .tabbed-interface {
@@ -146,7 +174,6 @@
   padding: 20px;
   border-left: 1px solid #e0e0e0;
 }
-
 @media (max-width: 768px) {
   .tab {
     min-width: 120px;
@@ -154,17 +181,14 @@
     font-size: 13px;
     height: 38px;
   }
-  
   .tab-title {
     margin-right: 6px;
   }
-  
   .tab-close {
     margin-left: 8px;
     width: 16px;
     height: 16px;
   }
-  
   .tabbed-interface {
     min-height: 46px;
   }

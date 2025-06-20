@@ -14,26 +14,27 @@ import {
   faSignOutAlt
 } from '@fortawesome/free-solid-svg-icons';
 import { useTheme } from './ThemeContext';
+import './AdminTab.css'
 
 const AdminTab = () => {
   const [showNewDropdown, setShowNewDropdown] = useState(false);
   const [showAdminDropdown, setShowAdminDropdown] = useState(false);
   const [showThemeDropdown, setShowThemeDropdown] = useState(false);
   const { navbarBg, themeColors, handleThemeChange, getNavbarStyle } = useTheme();
+  
   return (
     <nav className={`navbar navbar-expand navbar-dark ${navbarBg} px-3`} style={getNavbarStyle()}>
       <div className="container-fluid">
         <div className="d-flex align-items-center">
+          {/* UPDATED: navbar-brand now has typography styles in CSS */}
           <span className="navbar-brand me-4">H-ui.admin v3.1</span>
           <div 
             className="dropdown me-3" 
             onMouseEnter={() => setShowNewDropdown(true)}
             onMouseLeave={() => setShowNewDropdown(false)}
           >
-            <button 
-              className="btn btn-link text-white d-flex align-items-center"
-              style={{ textDecoration: 'none' }}
-            >
+            {/* UPDATED: Added btn-text class for typography */}
+            <button className="btn btn-link text-white d-flex align-items-center btn-text">
               <FontAwesomeIcon icon={faPlus} className="me-1" />
               New
               <FontAwesomeIcon icon={faChevronDown} className="ms-1" style={{ fontSize: '0.75rem' }} />
@@ -46,24 +47,28 @@ const AdminTab = () => {
               }}
             >
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faInfoCircle} className="me-2" />
                   Information
                 </a>
               </li>
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faImage} className="me-2" />
                   Pictures
                 </a>
               </li>
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faBox} className="me-2" />
                   Products
                 </a>
               </li>
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faUser} className="me-2" />
                   User
@@ -72,21 +77,21 @@ const AdminTab = () => {
             </ul>
           </div>
 
-          <button className="btn btn-link text-white me-3">
+          {/* UPDATED: Added btn-text class for typography */}
+          <button className="btn btn-link text-white me-3 btn-text">
             <FontAwesomeIcon icon={faTools} />
           </button>
         </div>
         <div className="d-flex align-items-center gap-4">
-          <span className="text-white">Super Administrator</span>
+          {/* UPDATED: Added secondary-text class for typography */}
+          <span className="text-white secondary-text">Super Administrator</span>
           <div 
             className="dropdown"
             onMouseEnter={() => setShowAdminDropdown(true)}
             onMouseLeave={() => setShowAdminDropdown(false)}
           >
-            <button 
-              className="btn btn-link text-white"
-              style={{ textDecoration: 'none' }}
-            >
+            {/* UPDATED: Added btn-text class for typography */}
+            <button className="btn btn-link text-white btn-text">
               admin
               <FontAwesomeIcon icon={faChevronDown} className="ms-1" style={{ fontSize: '0.75rem' }} />
             </button>
@@ -98,12 +103,14 @@ const AdminTab = () => {
               }}
             >
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faUser} className="me-2" />
                   Profile
                 </a>
               </li>
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faCog} className="me-2" />
                   Settings
@@ -111,6 +118,7 @@ const AdminTab = () => {
               </li>
               <li><hr className="dropdown-divider" /></li>
               <li>
+                {/* UPDATED: dropdown-item now has typography styles in CSS */}
                 <a className="dropdown-item" href="#">
                   <FontAwesomeIcon icon={faSignOutAlt} className="me-2" />
                   Logout
@@ -118,9 +126,11 @@ const AdminTab = () => {
               </li>
             </ul>
           </div>
-          <button className="btn btn-link text-white position-relative">
+          {/* UPDATED: Added btn-text class for typography */}
+          <button className="btn btn-link text-white position-relative btn-text">
             <FontAwesomeIcon icon={faMessage} />
-            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+            {/* UPDATED: Added badge-text class for typography */}
+            <span className="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger badge-text">
               3
             </span>
           </button>
@@ -129,7 +139,8 @@ const AdminTab = () => {
             onMouseEnter={() => setShowThemeDropdown(true)}
             onMouseLeave={() => setShowThemeDropdown(false)}
           >
-            <button className="btn btn-link text-white">
+            {/* UPDATED: Added btn-text class for typography */}
+            <button className="btn btn-link text-white btn-text">
               <FontAwesomeIcon icon={faShirt} />
             </button>
             <ul 
@@ -146,6 +157,7 @@ const AdminTab = () => {
             >
               {themeColors.map((theme, index) => (
                 <li key={index}>
+                  {/* UPDATED: dropdown-item now has typography styles in CSS */}
                   <button 
                     className="dropdown-item d-flex align-items-center"
                     onClick={() => {

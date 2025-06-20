@@ -1,0 +1,152 @@
+.navbar-brand {
+  font-family: 'Lato', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+.heading-large {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.heading-medium {
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+.body-text {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.body-text-large {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.body-text-small {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.secondary-text {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.secondary-text-small {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.8;
+}
+.btn-text {
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1.4 !important;
+  text-decoration: none !important;
+}
+
+.btn-text-small {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.btn-text-large {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+  text-decoration: none;
+}
+.badge-text {
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 600 !important;
+  line-height: 1.2 !important;
+}
+
+.badge-text-large {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.dropdown-item {
+  font-family: 'Inter', 'Roboto', sans-serif !important;
+  font-size: 12px !important;
+  font-weight: 400 !important;
+  line-height: 1.5 !important;
+}
+
+.dropdown-item:hover {
+  font-weight: 500 !important;
+}
+.navbar-text {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.4;
+}
+
+.navbar-secondary {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+.input-text {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.input-text-large {
+  font-family: 'Inter', 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+.text-bold {
+  font-weight: 600;
+}
+
+.text-medium {
+  font-weight: 500;
+}
+
+.text-light {
+  font-weight: 300;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}

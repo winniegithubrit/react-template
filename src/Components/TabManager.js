@@ -20,7 +20,7 @@ function TabManager({ children }) {
       })));
     }
   }, [location.pathname, tabs, activeTab]);
-
+// adds a tab
   const addTab = (tabId, tabTitle, tabPath) => {
     const existingTab = tabs.find(tab => tab.id === tabId);
     

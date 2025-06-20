@@ -1,8 +1,9 @@
 import React, { createContext, useContext, useState } from 'react';
-
+// this creates the actual context
 const ThemeContext = createContext();
-
+// custom hook to access the theme values
 export const useTheme = () => {
+  // fetching the current context value
   const context = useContext(ThemeContext);
   if (!context) {
     throw new Error('useTheme must be used within a ThemeProvider');
@@ -17,7 +18,7 @@ export const ThemeProvider = ({ children }) => {
     class: 'bg-dark', 
     color: '#343a40' 
   });
-
+// available themes 
   const themeColors = [
     { name: 'Black', class: 'bg-dark', color: '#343a40' },
     { name: 'Blue', class: 'bg-primary', color: '#0d6efd' },
@@ -29,7 +30,7 @@ export const ThemeProvider = ({ children }) => {
     { name: 'Purple', class: '', color: '#6f42c1' },
     {name:   'Orange', class: '', color: '#FFA500'},
   ];
-
+// called when a user selects a theme
   const handleThemeChange = (theme) => {
     if (theme.class) {
       setNavbarBg(theme.class);
@@ -45,7 +46,7 @@ export const ThemeProvider = ({ children }) => {
     }
     return {};
   };
-
+// wrapping with the ThemeContext.Provider makes the theme values and functions available to any child component that uses the useTheme()
   return (
     <ThemeContext.Provider value={{
       navbarBg,
